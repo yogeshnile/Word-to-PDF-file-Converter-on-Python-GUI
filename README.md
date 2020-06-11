@@ -1,7 +1,14 @@
 # Word-to-PDF-file-Converter-on-Python-GUI
 In repo are created MS Word file convert into PDF file on Python GUI (Tkinter).
 
-
+# Dependentias
+```python
+import tkinter as tk
+from docx2pdf import convert
+import tkinter.ttk as ttk
+from tkinter.filedialog import askopenfile
+from tkinter.messagebox import showinfo
+```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
